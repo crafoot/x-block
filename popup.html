@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>X黄评屏蔽器</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="popup-shell">
+      <section class="hero-card">
+        <div class="hero-card__content">
+          <div class="hero-title-row">
+            <img class="brand-mark" src="brand-mark.png" alt="" aria-hidden="true" />
+            <h1>X黄评屏蔽器</h1>
+          </div>
+          <p class="hero-card__copy">自动屏蔽中文短黄评。完整词库支持删除、补充和表格化查看。</p>
+          <div class="hero-stats">
+            <div class="stat">
+              <span class="stat__label">内置短词</span>
+              <strong id="default-count" class="stat__value">0</strong>
+            </div>
+            <div class="stat">
+              <span class="stat__label">自定义短词</span>
+              <strong id="custom-short-count" class="stat__value">0</strong>
+            </div>
+            <div class="stat">
+              <span class="stat__label">整句词库</span>
+              <strong id="custom-full-count" class="stat__value">0</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel__header">
+          <div>
+            <p class="panel__kicker">快速扩展</p>
+            <h2>新增自定义短词</h2>
+          </div>
+        </div>
+        <form id="short-keyword-form" class="stack-form">
+          <input id="short-keyword-input" type="text" placeholder="例如：求抱走、会撒娇" maxlength="30" />
+          <button type="submit">添加短词</button>
+        </form>
+      </section>
+
+      <section class="panel">
+        <div class="panel__header panel__header--spread">
+          <div>
+            <p class="panel__kicker">默认规则</p>
+            <h2>内置短词库</h2>
+          </div>
+          <button id="default-open-more" class="panel__more" type="button" data-group="default">···</button>
+        </div>
+        <div id="default-keywords" class="chip-grid"></div>
+      </section>
+
+      <section class="panel">
+        <div class="panel__header panel__header--spread">
+          <div>
+            <p class="panel__kicker">快速扩展</p>
+            <h2>自定义短词</h2>
+          </div>
+          <button id="custom-short-open-more" class="panel__more" type="button" data-group="custom-short">···</button>
+        </div>
+        <div id="custom-short-keywords" class="chip-grid"></div>
+      </section>
+
+      <section class="panel">
+        <div class="panel__header panel__header--spread">
+          <div>
+            <p class="panel__kicker">手动补充</p>
+            <h2>整句词库</h2>
+          </div>
+          <button id="custom-full-open-more" class="panel__more" type="button" data-group="custom-full">···</button>
+        </div>
+        <div id="custom-full-matches" class="chip-grid chip-grid--sentences"></div>
+      </section>
+    </main>
+
+    <script src="shared.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>

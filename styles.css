@@ -1,0 +1,113 @@
+article[data-xhb-processed="true"] {
+  position: relative;
+}
+
+article[data-xhb-processed="true"] .xhb-manual-action {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 30;
+  opacity: 0;
+  pointer-events: none;
+  border: 0;
+  border-radius: 999px;
+  padding: 6px 10px;
+  background: rgba(215, 32, 59, 0.92);
+  color: #fff;
+  font-size: 12px;
+  line-height: 1;
+  cursor: pointer;
+  transition: opacity 0.16s ease;
+}
+
+article[data-xhb-processed="true"]:hover .xhb-manual-action:not([disabled]) {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+article[data-xhb-masked="true"] .xhb-manual-action {
+  display: none;
+}
+
+article[data-xhb-masked="true"] .xhb-sensitive {
+  filter: blur(10px) saturate(0.72);
+  user-select: none;
+  transition: filter 0.18s ease, opacity 0.18s ease;
+  opacity: 0.82;
+}
+
+article[data-xhb-masked="true"][data-xhb-revealed="true"] .xhb-sensitive {
+  filter: none;
+  user-select: text;
+  opacity: 1;
+}
+
+.xhb-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.18);
+  color: #0f172a;
+  backdrop-filter: blur(16px) saturate(1.16);
+  -webkit-backdrop-filter: blur(16px) saturate(1.16);
+  pointer-events: none;
+}
+
+article[data-xhb-masked="true"][data-xhb-revealed="true"] .xhb-overlay {
+  background: transparent;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+
+.xhb-overlay__meta {
+  max-width: 72%;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.3;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  color: rgba(15, 23, 42, 0.42);
+  text-shadow: none;
+  letter-spacing: 0.01em;
+}
+
+article[data-xhb-masked="true"][data-xhb-revealed="true"] .xhb-overlay__meta {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.xhb-overlay__button {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  flex-shrink: 0;
+  border: 0;
+  border-radius: 999px;
+  padding: 8px 14px;
+  background: rgba(255, 255, 255, 0.78);
+  color: #0f172a;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  pointer-events: auto;
+  box-shadow: 0 6px 16px rgba(15, 23, 42, 0.08);
+  transition: transform 0.16s ease, box-shadow 0.16s ease, background 0.16s ease;
+}
+
+.xhb-overlay__button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 18px rgba(15, 23, 42, 0.12);
+}
+
+article[data-xhb-masked="true"][data-xhb-revealed="true"] .xhb-overlay__button {
+  background: rgba(255, 255, 255, 0.92);
+}

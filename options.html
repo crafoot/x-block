@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>X黄评屏蔽器词库管理</title>
+    <link rel="stylesheet" href="options.css" />
+  </head>
+  <body>
+    <main class="page">
+      <section class="hero">
+        <div class="hero-title-row">
+          <img class="brand-mark" src="brand-mark.png" alt="" aria-hidden="true" />
+          <h1>词库管理页</h1>
+        </div>
+        <p class="hero__copy">完整查看和管理内置短词、自定义短词、整句词库。支持表格化删除。</p>
+      </section>
+
+      <section class="tools">
+        <form id="short-keyword-form" class="inline-form">
+          <input id="short-keyword-input" type="text" placeholder="新增自定义短词" maxlength="30" />
+          <button type="submit">添加短词</button>
+        </form>
+      </section>
+
+      <section class="library-panel">
+        <div class="tabs" role="tablist" aria-label="词库分组">
+          <button id="tab-default" class="tab-button" type="button" role="tab" aria-controls="panel-default" aria-selected="true" data-group="default">内置短词 <span id="default-count" class="tab-button__count">0</span></button>
+          <button id="tab-custom-short" class="tab-button" type="button" role="tab" aria-controls="panel-custom-short" aria-selected="false" data-group="custom-short">自定义短词 <span id="custom-short-count" class="tab-button__count">0</span></button>
+          <button id="tab-custom-full" class="tab-button" type="button" role="tab" aria-controls="panel-custom-full" aria-selected="false" data-group="custom-full">整句词库 <span id="custom-full-count" class="tab-button__count">0</span></button>
+        </div>
+
+        <section class="table-panel tab-panel" id="panel-default" data-group-panel="default" role="tabpanel" aria-labelledby="tab-default">
+          <div class="table-panel__head">
+            <div>
+              <p class="table-panel__kicker">默认规则</p>
+              <h2>内置短词库</h2>
+            </div>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>词条</th>
+                  <th>类型</th>
+                  <th>操作</th>
+                </tr>
+              </thead>
+              <tbody id="default-table"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="table-panel tab-panel" id="panel-custom-short" data-group-panel="custom-short" role="tabpanel" aria-labelledby="tab-custom-short" hidden>
+          <div class="table-panel__head">
+            <div>
+              <p class="table-panel__kicker">快速扩展</p>
+              <h2>自定义短词</h2>
+            </div>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>词条</th>
+                  <th>类型</th>
+                  <th>操作</th>
+                </tr>
+              </thead>
+              <tbody id="custom-short-table"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="table-panel tab-panel" id="panel-custom-full" data-group-panel="custom-full" role="tabpanel" aria-labelledby="tab-custom-full" hidden>
+          <div class="table-panel__head">
+            <div>
+              <p class="table-panel__kicker">手动补充</p>
+              <h2>整句词库</h2>
+            </div>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>词条</th>
+                  <th>类型</th>
+                  <th>操作</th>
+                </tr>
+              </thead>
+              <tbody id="custom-full-table"></tbody>
+            </table>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script src="shared.js"></script>
+    <script src="options.js"></script>
+  </body>
+</html>
