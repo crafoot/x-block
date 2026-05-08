@@ -32,6 +32,61 @@
   ];
   const PROFILE_BLOCK_KEYWORDS = ["约炮", "同城", "免费", "破处", "约p", "主页", "附近"];
 
+  const ENGLISH_SPAM_KEYWORDS = [
+    "i miss your",
+    "i miss the",
+    "warmth of your love",
+    "kept me safe",
+    "my everything",
+    "more than i deserved",
+    "world feels empty",
+    "without you by my side",
+    "always love you",
+    "no matter what happens",
+    "you were my home",
+    "lost without you",
+    "stars remind me",
+    "night we met",
+    "dream of you",
+    "every night",
+    "search for you",
+    "i miss your laugh",
+    "your love that",
+    "feel your touch"
+  ];
+
+  const SPAM_DECORATIVE_UNICODE = /[\u2B1C-\u2BFF\u27C0-\u27EF\u2900-\u297F\u2980-\u29FF\u24EA-\u24FF\u2776-\u2793\u2B50\u2726\u2727\u2730\u2736\u2737\u2738\u2739\u273A\u273B\u273C\u273D\u273E\u273F\u2740\u2741\u2742\u2743\u2744\u2745\u2746\u2747\u2748\u2749\u274A\u274B]/u;
+
+  function isRandomBotName(text) {
+    const cleaned = (text || "").toLowerCase().replace(/[^a-z]/g, "");
+    if (cleaned.length < 4 || cleaned.length > 8) return false;
+
+    // Exclude names containing common English consonant digraphs
+    if (/ck|th|sh|ch|ph|wh|qu|ng|gh|dg|mb|bb|cc|dd|ff|gg|ll|mm|nn|pp|rr|ss|tt|zz/.test(cleaned)) return false;
+
+    // 3+ consecutive consonants = strong bot signal
+    if (/[^aeiou]{3,}/.test(cleaned)) return true;
+
+    const vowels = (cleaned.match(/[aeiou]/g) || []).length;
+    const consonants = cleaned.length - vowels;
+
+    // Very few vowels (0-1) with 4+ consonants
+    if (vowels <= 1 && consonants >= 4) return true;
+
+    // High consonant density
+    if (vowels === 0) return consonants >= 4;
+    return consonants / vowels >= 3.0;
+  }
+
+  function containsEnglishSpam(text) {
+    const lower = (text || "").toLowerCase();
+    return ENGLISH_SPAM_KEYWORDS.some(function (kw) { return lower.includes(kw); });
+  }
+
+  function containsSpamDecorative(text) {
+    return SPAM_DECORATIVE_UNICODE.test(text || "");
+  }
+
   function normalizeWhitespace(text) {
     return text.replace(/\s+/g, " ").trim();
   }
@@ -350,6 +405,14 @@
     }
 
     if (!containsBlockedProfileEmoji(normalizedName)) {
+      if (isRandomBotName(normalizedName) && /\d{5,}$/.test(normalizedHandle)) {
+        return {
+          matched: true,
+          reason: "random-name-number-id",
+          keyword: "随机名字+5位数字ID",
+          cleanedText: normalizedName
+        };
+      }
       return {
         matched: false,
         reason: "missing-blocked-profile-emoji"
@@ -377,7 +440,27 @@
       return profileMatch;
     }
 
-    return matchText(rawText, settings);
+    const textResult = matchText(rawText, settings);
+    if (textResult.matched) {
+      return textResult;
+    }
+
+    // English spam detection: short English text with spam patterns
+    const cleaned = sanitizeForRule(rawText);
+    const normalized = normalizeWhitespace(cleaned);
+    if (normalized && !hasChinese(normalized)) {
+      const len = countChineseAwareLength(normalized);
+      if (len <= 40 && (containsEnglishSpam(normalized) || containsSpamDecorative(normalized))) {
+        return {
+          matched: true,
+          reason: "english-spam",
+          keyword: "英文黄推",
+          cleanedText: normalized
+        };
+      }
+    }
+
+    return textResult;
   }
 
   global.XHB = {
@@ -404,6 +487,9 @@
     sanitizeForRule,
     matchProfile,
     matchText,
-    matchTweet
+    matchTweet,
+    isRandomBotName,
+    containsEnglishSpam,
+    containsSpamDecorative
   };
 })(typeof window !== "undefined" ? window : globalThis);

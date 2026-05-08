@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "X黄评屏蔽器",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "屏蔽 X.com 上疑似涉黄诈骗评论，自动登记并屏蔽账号，支持数据库导入导出和GitHub同步。",
   "icons": {
     "16": "icons/icon16.png",

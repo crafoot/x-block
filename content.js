@@ -392,17 +392,25 @@
 
     const text = getArticleText(article);
     const profile = getProfileData(article);
+
+    article.dataset.xhbDbgName = (profile.displayName || "").slice(0, 30);
+    article.dataset.xhbDbgHandle = (profile.handle || "").slice(0, 30);
+
     if (!text && !profile.displayName && !profile.handle && !profile.hasEmojiNode) {
+      article.dataset.xhbDbgSkip = "no-content";
       clearMask(article);
       return;
     }
 
     if (!isPureTextArticle(article)) {
+      article.dataset.xhbDbgSkip = "has-media";
       clearMask(article);
       return;
     }
 
     const result = window.XHB.matchTweet(text, settings, profile);
+    article.dataset.xhbDbgMatch = result.matched ? "YES" : "NO";
+    article.dataset.xhbDbgReason = result.reason || "none";
     if (result.matched) {
       recordBlockedAccount(article, profile, result, "auto-detected");
       applyMask(article, result);
