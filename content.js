@@ -19,10 +19,13 @@
   const PROCESSED_ATTR = "data-xhb-processed";
   const MASKED_ATTR = "data-xhb-masked";
   const REVEALED_ATTR = "data-xhb-revealed";
+  const ACCOUNT_RECORDED_ATTR = "data-xhb-account-recorded";
 
   let settings = null;
   let observer = null;
   let refreshScheduled = false;
+  let blockQueue = Promise.resolve();
+  const autoBlockHandles = new Set();
   const MASKED_LABEL = "垃圾评论已屏蔽";
 
   function setRevealState(article, revealed) {
@@ -108,6 +111,7 @@
 
   function getProfileData(article) {
     const nameNode = article.querySelector(NAME_SELECTOR);
+    const profileLink = article.querySelector('a[href^="/"][role="link"]');
     const rawText = getNodeText(nameNode);
     const normalized = rawText.replace(/\s+/g, " ").trim();
     const hasEmojiNode = Boolean(
@@ -122,8 +126,9 @@
       };
     }
 
+    const linkHandleMatch = profileLink?.getAttribute("href")?.match(/^\/([A-Za-z0-9_]{1,15})(?:$|[/?#])/);
     const handleMatch = normalized.match(/@([A-Za-z0-9_]+)/);
-    const handle = handleMatch ? `@${handleMatch[1]}` : "";
+    const handle = handleMatch ? `@${handleMatch[1]}` : linkHandleMatch ? `@${linkHandleMatch[1]}` : "";
     const displayName = handleMatch
       ? normalized.slice(0, handleMatch.index).trim()
       : normalized;
@@ -150,6 +155,7 @@
       event.stopPropagation();
 
       const text = getArticleText(article);
+      const profile = getProfileData(article);
       if (!text) {
         return;
       }
@@ -159,6 +165,11 @@
         return;
       }
 
+      recordBlockedAccount(article, profile, {
+        reason: "manual-block",
+        keyword: "手动屏蔽",
+        cleanedText: window.XHB.sanitizeForRule(text)
+      }, "manual-block");
       applyMask(article, {
         reason: "manual-block",
         cleanedText: window.XHB.sanitizeForRule(text)
@@ -234,6 +245,136 @@
     article.dataset.xhbReason = matchResult.reason;
   }
 
+  function sendRuntimeMessage(message) {
+    return new Promise((resolve) => {
+      chrome.runtime.sendMessage(message, (response) => {
+        if (chrome.runtime.lastError) {
+          resolve(null);
+          return;
+        }
+        resolve(response);
+      });
+    });
+  }
+
+  async function recordBlockedAccount(article, profile, matchResult, source) {
+    const handle = window.XHB.normalizeHandle(profile.handle);
+    if (!handle || article.getAttribute(ACCOUNT_RECORDED_ATTR) === handle) {
+      return;
+    }
+
+    article.setAttribute(ACCOUNT_RECORDED_ATTR, handle);
+    await sendRuntimeMessage({
+      type: "XHB_ADD_BLOCKED_ACCOUNT",
+      account: {
+        handle,
+        displayName: profile.displayName,
+        reason: matchResult.keyword || matchResult.reason,
+        source,
+        lastSeen: new Date().toISOString()
+      }
+    });
+
+    if (settings?.autoBlockAccounts) {
+      enqueueAutoBlock(article, handle);
+    }
+  }
+
+  function enqueueAutoBlock(article, handle) {
+    if (!handle || autoBlockHandles.has(handle)) {
+      return;
+    }
+
+    autoBlockHandles.add(handle);
+    blockQueue = blockQueue
+      .then(() => autoBlockAccount(article, handle))
+      .catch(() => null);
+  }
+
+  function wait(ms) {
+    return new Promise((resolve) => setTimeout(resolve, ms));
+  }
+
+  function findMenuItem(pattern) {
+    return Array.from(document.querySelectorAll('[role="menuitem"], [data-testid="Dropdown"] [role="button"], [data-testid="block"], div[role="menuitem"]')).find((item) => {
+      const text = (item.innerText || item.textContent || "").replace(/\s+/g, " ").trim();
+      return pattern.test(text);
+    });
+  }
+
+  function findDialogButton(pattern) {
+    return Array.from(document.querySelectorAll('[role="dialog"] [role="button"], [data-testid="confirmationSheetConfirm"], [data-testid="confirmationSheetDialog"] [role="button"]')).find((item) => {
+      const text = (item.innerText || item.textContent || "").replace(/\s+/g, " ").trim();
+      return pattern.test(text);
+    });
+  }
+
+  function closeMenu() {
+    document.dispatchEvent(new KeyboardEvent("keydown", { key: "Escape", code: "Escape", keyCode: 27, bubbles: true }));
+  }
+
+  async function autoBlockAccount(article, handle) {
+    const cleanHandle = handle.replace(/^@/, "");
+    const menuButton = article.querySelector('[data-testid="caret"], [aria-label="More"], [aria-label="更多"], [aria-label="もっと見る"], button[aria-label*="More" i]');
+    if (!menuButton) {
+      return false;
+    }
+
+    menuButton.click();
+    await wait(500);
+
+    const blockPatterns = [
+      new RegExp(`(Block|屏蔽|封锁|ブロック).*@?${cleanHandle.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}`, "i"),
+      /^(Block|屏蔽|封锁|ブロック)$/i,
+      /(Block|屏蔽|封锁|ブロック)/i
+    ];
+
+    let blockItem = null;
+    for (const pattern of blockPatterns) {
+      blockItem = findMenuItem(pattern);
+      if (blockItem) break;
+    }
+
+    if (!blockItem) {
+      closeMenu();
+      return false;
+    }
+
+    blockItem.click();
+    await wait(500);
+
+    const confirmPatterns = [/^(Block|屏蔽|封锁|ブロック)$/i, /(Block|屏蔽|封锁|ブロック)/i];
+    let confirmButton = null;
+    for (const pattern of confirmPatterns) {
+      confirmButton = findDialogButton(pattern);
+      if (confirmButton) break;
+    }
+
+    if (!confirmButton) {
+      closeMenu();
+      return false;
+    }
+
+    confirmButton.click();
+
+    article.dataset.xhbBlocked = "true";
+    var badge = article.querySelector(".xhb-blocked-badge");
+    if (!badge) {
+      badge = document.createElement("span");
+      badge.className = "xhb-blocked-badge";
+      badge.textContent = "已屏蔽";
+      badge.title = handle + " 已自动屏蔽";
+      article.style.position = article.style.position || "relative";
+      article.appendChild(badge);
+    }
+
+    await sendRuntimeMessage({
+      type: "XHB_MARK_ACCOUNT_BLOCKED",
+      handle
+    });
+    return true;
+  }
+
   function clearMask(article) {
     article.removeAttribute(MASKED_ATTR);
     article.removeAttribute(REVEALED_ATTR);
@@ -263,6 +404,7 @@
 
     const result = window.XHB.matchTweet(text, settings, profile);
     if (result.matched) {
+      recordBlockedAccount(article, profile, result, "auto-detected");
       applyMask(article, result);
     } else {
       clearMask(article);

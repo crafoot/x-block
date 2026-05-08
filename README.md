@@ -29,6 +29,10 @@
 - 支持删除内置短词、自定义短词、整句词库
 - Popup 中快速管理词库
 - 独立配置页中以 Tab + 表格方式管理完整词库
+- **🆕 自动登记并屏蔽黄评账号** — 命中规则时自动将账号加入数据库并执行 Block
+- **🆕 账号数据库** — 浏览时积累的账号数据库，支持导入/导出/合并
+- **🆕 GitHub 同步** — 定时从远程 GitHub 仓库拉取社区共享的屏蔽列表
+- **🆕 多来源合并** — 支持添加多个外部数据源 URL，自动合并去重
 
 ## 当前屏蔽规则
 
@@ -84,6 +88,12 @@
 
 ## 安装方式
 
+### 从 GitHub 同步共享数据库
+
+插件默认会从 [crafoot/x-block](https://github.com/crafoot/x-block) 的 `data/accounts.json` 定时拉取共享屏蔽列表。
+
+你也可以在 Options 页的「账号数据库」Tab 中添加其他维护者的 GitHub 原始 JSON 地址。
+
 ### 本地加载
 
 1. 打开 Chrome
@@ -115,9 +125,29 @@
 - 查看内置短词数量
 - 查看自定义短词数量
 - 查看整句词库数量
+- **🆕 查看账号数据库统计** — 登记账号数、已屏蔽数、上次同步时间
+- **🆕 导出数据库** — 下载当前本地数据库 JSON
+- **🆕 导入数据库** — 从 JSON 文件合并账号
+- **🆕 立即同步** — 手动触发从 GitHub 拉取
 - 新增自定义短词
 - 快速删除部分词条
 - 点击 `···` 进入完整配置页
+
+### 账号数据库（🆕）
+
+**自动收集：** 浏览 X 时，一旦命中黄评规则，插件会自动：
+1. 将评论模糊遮挡
+2. 把账号登记到本地数据库
+3. 自动点击 Block 按钮屏蔽该账号（无需确认）
+
+**导入/导出：** 在 Popup 或 Options 页中：
+- 📤 导出本地数据库为 JSON 文件
+- 📥 导入其他人的 JSON 文件并自动合并去重
+
+**多来源同步：** 在 Options 页的「账号数据库」Tab 中：
+- 管理多个 GitHub 原始 JSON 地址
+- 定时（每12小时）自动拉取合并
+- 导入的账号不会立即全部 Block，只在浏览时遇到该账号的评论才会屏蔽
 
 ### 完整配置页
 
@@ -133,17 +163,25 @@
 
 ```text
 .
-├── manifest.json      # Chrome 插件配置
-├── content.js         # 页面扫描、命中、遮挡交互
-├── shared.js          # 规则、词库、存储逻辑
-├── styles.css         # 页面遮挡样式
-├── popup.html         # Popup 页面
-├── popup.js           # Popup 逻辑
-├── popup.css          # Popup 样式
-├── options.html       # 完整配置页
-├── options.js         # 完整配置页逻辑
-├── options.css        # 完整配置页样式
-└── icons/             # 插件图标
+├── manifest.json          # Chrome 插件配置
+├── background.js          # 后台同步、数据库管理
+├── content.js             # 页面扫描、命中、遮挡交互、自动屏蔽
+├── shared.js              # 规则、词库、账号数据库、存储逻辑
+├── styles.css             # 页面遮挡 + 已屏蔽标记样式
+├── popup.html             # Popup 页面
+├── popup.js               # Popup 逻辑（含账号统计 + 导入导出）
+├── popup.css              # Popup 样式
+├── options.html           # 完整配置页（含账号数据库 Tab）
+├── options.js             # 完整配置页逻辑
+├── options.css            # 完整配置页样式
+├── data/
+│   └── accounts.json      # 初始账号数据库（供 GitHub 同步用）
+├── scripts/
+│   └── merge-external.py  # 外部数据库合并脚本
+├── .github/
+│   └── workflows/
+│       └── validate.yml   # CI: 验证 accounts.json 格式
+└── icons/                 # 插件图标
 ```
 
 ## 技术实现

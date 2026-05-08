@@ -1,0 +1,54 @@
+name: Validate Accounts Database
+
+on:
+  push:
+    paths:
+      - "data/accounts.json"
+  pull_request:
+    paths:
+      - "data/accounts.json"
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate JSON
+        run: |
+          python3 -m json.tool data/accounts.json > /dev/null
+          echo "✅ Valid JSON"
+
+      - name: Check schema
+        run: |
+          python3 -c "
+          import json
+          with open('data/accounts.json') as f:
+              db = json.load(f)
+          assert 'version' in db, 'Missing version'
+          assert 'accounts' in db, 'Missing accounts'
+          assert isinstance(db['accounts'], list), 'accounts must be a list'
+          for acc in db['accounts']:
+              assert 'handle' in acc, f'Missing handle: {acc}'
+              assert acc['handle'].startswith('@'), f'Handle must start with @: {acc[\"handle\"]}'
+          print(f'✅ {len(db[\"accounts\"])} accounts, valid schema')
+          "
+
+      - name: Show stats
+        run: |
+          python3 -c "
+          import json
+          with open('data/accounts.json') as f:
+              db = json.load(f)
+          total = len(db['accounts'])
+          blocked = sum(1 for a in db['accounts'] if a.get('blocked'))
+          sources = {}
+          for a in db['accounts']:
+              for s in a.get('sources', []):
+                  sources[s] = sources.get(s, 0) + 1
+          print(f'Total accounts: {total}')
+          print(f'Blocked: {blocked}')
+          print(f'By source: {json.dumps(sources, indent=2)}')
+          "

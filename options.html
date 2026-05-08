@@ -13,7 +13,7 @@
           <img class="brand-mark" src="brand-mark.png" alt="" aria-hidden="true" />
           <h1>词库管理页</h1>
         </div>
-        <p class="hero__copy">完整查看和管理内置短词、自定义短词、整句词库。支持表格化删除。</p>
+        <p class="hero__copy">完整查看和管理内置短词、自定义短词、整句词库、账号数据库。支持表格化删除。</p>
       </section>
 
       <section class="tools">
@@ -28,6 +28,7 @@
           <button id="tab-default" class="tab-button" type="button" role="tab" aria-controls="panel-default" aria-selected="true" data-group="default">内置短词 <span id="default-count" class="tab-button__count">0</span></button>
           <button id="tab-custom-short" class="tab-button" type="button" role="tab" aria-controls="panel-custom-short" aria-selected="false" data-group="custom-short">自定义短词 <span id="custom-short-count" class="tab-button__count">0</span></button>
           <button id="tab-custom-full" class="tab-button" type="button" role="tab" aria-controls="panel-custom-full" aria-selected="false" data-group="custom-full">整句词库 <span id="custom-full-count" class="tab-button__count">0</span></button>
+          <button id="tab-accounts" class="tab-button" type="button" role="tab" aria-controls="panel-accounts" aria-selected="false" data-group="accounts">账号数据库 <span id="account-count" class="tab-button__count">0</span></button>
         </div>
 
         <section class="table-panel tab-panel" id="panel-default" data-group-panel="default" role="tabpanel" aria-labelledby="tab-default">
@@ -40,12 +41,7 @@
           <div class="table-wrap">
             <table>
               <thead>
-                <tr>
-                  <th>#</th>
-                  <th>词条</th>
-                  <th>类型</th>
-                  <th>操作</th>
-                </tr>
+                <tr><th>#</th><th>词条</th><th>类型</th><th>操作</th></tr>
               </thead>
               <tbody id="default-table"></tbody>
             </table>
@@ -62,12 +58,7 @@
           <div class="table-wrap">
             <table>
               <thead>
-                <tr>
-                  <th>#</th>
-                  <th>词条</th>
-                  <th>类型</th>
-                  <th>操作</th>
-                </tr>
+                <tr><th>#</th><th>词条</th><th>类型</th><th>操作</th></tr>
               </thead>
               <tbody id="custom-short-table"></tbody>
             </table>
@@ -84,15 +75,77 @@
           <div class="table-wrap">
             <table>
               <thead>
-                <tr>
-                  <th>#</th>
-                  <th>词条</th>
-                  <th>类型</th>
-                  <th>操作</th>
-                </tr>
+                <tr><th>#</th><th>词条</th><th>类型</th><th>操作</th></tr>
               </thead>
               <tbody id="custom-full-table"></tbody>
             </table>
+          </div>
+        </section>
+
+        <section class="table-panel tab-panel" id="panel-accounts" data-group-panel="accounts" role="tabpanel" aria-labelledby="tab-accounts" hidden>
+          <div class="table-panel__head">
+            <div>
+              <p class="table-panel__kicker">社区数据</p>
+              <h2>账号数据库</h2>
+            </div>
+            <div class="table-panel__actions">
+              <button id="btn-sync" class="row-action" type="button">🔄 同步</button>
+              <button id="btn-export" class="row-action" type="button">📤 导出</button>
+              <button id="btn-import" class="row-action" type="button">📥 导入</button>
+            </div>
+          </div>
+          <input id="import-file-input" type="file" accept=".json" style="display:none" />
+
+          <div class="accounts-toolbar">
+            <label class="toggle-label">
+              <input id="auto-sync-toggle" type="checkbox" />
+              <span>自动同步（每12小时）</span>
+            </label>
+            <label class="toggle-label">
+              <input id="auto-block-toggle" type="checkbox" />
+              <span>检测到黄评账号自动执行屏蔽</span>
+            </label>
+          </div>
+
+          <div class="accounts-summary">
+            <span>共 <strong id="accounts-total">0</strong> 个账号</span>
+            <span class="sep">·</span>
+            <span>已屏蔽 <strong id="accounts-blocked">0</strong> 个</span>
+            <span class="sep">·</span>
+            <span>上次同步: <strong id="accounts-synced">-</strong></span>
+          </div>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>账号</th>
+                  <th>昵称</th>
+                  <th>检测原因</th>
+                  <th>来源</th>
+                  <th>状态</th>
+                  <th>最近发现</th>
+                </tr>
+              </thead>
+              <tbody id="accounts-table"></tbody>
+            </table>
+          </div>
+
+          <div class="external-sources-section">
+            <div class="table-panel__head">
+              <div>
+                <p class="table-panel__kicker">外部数据源</p>
+                <h2>GitHub 远程地址</h2>
+              </div>
+            </div>
+            <p style="color: var(--ink-2); font-size: 13px; margin: 0 0 10px;">
+              多个地址会依次拉取合并。可以添加其他维护者的 block list JSON 地址。
+            </p>
+            <form id="external-source-form" class="inline-form">
+              <input id="external-source-input" type="text" placeholder="https://raw.githubusercontent.com/.../accounts.json" />
+              <button type="submit">添加</button>
+            </form>
+            <div id="external-sources-list" class="external-list"></div>
           </div>
         </section>
       </section>

@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "X黄评屏蔽器",
-  "version": "0.1.0",
-  "description": "屏蔽 X.com 上疑似涉黄诈骗评论，支持模糊遮挡、手动屏蔽和自定义词库。",
+  "version": "0.2.0",
+  "description": "屏蔽 X.com 上疑似涉黄诈骗评论，自动登记并屏蔽账号，支持数据库导入导出和GitHub同步。",
   "icons": {
     "16": "icons/icon16.png",
     "32": "icons/icon32.png",
@@ -10,11 +10,16 @@
     "128": "icons/icon128.png"
   },
   "permissions": [
-    "storage"
+    "storage",
+    "alarms"
   ],
   "host_permissions": [
-    "https://x.com/*"
+    "https://x.com/*",
+    "https://raw.githubusercontent.com/*"
   ],
+  "background": {
+    "service_worker": "background.js"
+  },
   "content_scripts": [
     {
       "matches": [

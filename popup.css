@@ -283,3 +283,39 @@ body {
   line-height: 1.5;
   background: rgba(255, 255, 255, 0.5);
 }
+
+.panel__actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+.panel__btn {
+  height: 34px;
+  padding: 0 12px;
+  border: 1px solid rgba(15, 20, 25, 0.12);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.78);
+  color: var(--ink-1);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: border-color 0.16s ease, background 0.16s ease;
+}
+
+.panel__btn:hover {
+  border-color: rgba(29, 155, 240, 0.4);
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.panel__btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.stat__value--small {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.4;
+}

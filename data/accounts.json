@@ -1,0 +1,2436 @@
+{
+  "version": 1,
+  "updatedAt": "2026-05-08T06:01:24.142607+00:00",
+  "accounts": [
+    {
+      "handle": "@10b_e0",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140367+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140370+00:00"
+    },
+    {
+      "handle": "@1_uu_0",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141591+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141594+00:00"
+    },
+    {
+      "handle": "@1a_610",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140723+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140726+00:00"
+    },
+    {
+      "handle": "@1a_iso",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140712+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140714+00:00"
+    },
+    {
+      "handle": "@1alroo71",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140071+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140074+00:00"
+    },
+    {
+      "handle": "@1bluee_1",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140746+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140748+00:00"
+    },
+    {
+      "handle": "@1cry0",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140698+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140702+00:00"
+    },
+    {
+      "handle": "@1ensn",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141627+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141629+00:00"
+    },
+    {
+      "handle": "@1g__1",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140534+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140538+00:00"
+    },
+    {
+      "handle": "@1g__h",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140125+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140128+00:00"
+    },
+    {
+      "handle": "@1g_h20",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140757+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140759+00:00"
+    },
+    {
+      "handle": "@1gheith",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142093+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142096+00:00"
+    },
+    {
+      "handle": "@1hbk___",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.139994+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140001+00:00"
+    },
+    {
+      "handle": "@1hli9",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140594+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140597+00:00"
+    },
+    {
+      "handle": "@1king__",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141549+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141551+00:00"
+    },
+    {
+      "handle": "@1l7l_",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142273+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142274+00:00"
+    },
+    {
+      "handle": "@1massg_",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141481+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141482+00:00"
+    },
+    {
+      "handle": "@1n800",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141143+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141145+00:00"
+    },
+    {
+      "handle": "@1resla",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141173+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141175+00:00"
+    },
+    {
+      "handle": "@1rii99_",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141328+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141330+00:00"
+    },
+    {
+      "handle": "@1sjil",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142393+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142395+00:00"
+    },
+    {
+      "handle": "@1weirdlife0",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140874+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140877+00:00"
+    },
+    {
+      "handle": "@1whatsapp_",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141573+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141576+00:00"
+    },
+    {
+      "handle": "@23c600",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141022+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141024+00:00"
+    },
+    {
+      "handle": "@26iq_",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142401+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142403+00:00"
+    },
+    {
+      "handle": "@2812_",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140110+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140114+00:00"
+    },
+    {
+      "handle": "@2videoss",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141158+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141160+00:00"
+    },
+    {
+      "handle": "@3alm_2kl_",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141982+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141984+00:00"
+    },
+    {
+      "handle": "@3fj00",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140321+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140324+00:00"
+    },
+    {
+      "handle": "@3l12_",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142384+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142387+00:00"
+    },
+    {
+      "handle": "@3thbz",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141695+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141698+00:00"
+    },
+    {
+      "handle": "@5of_sh",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140618+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140621+00:00"
+    },
+    {
+      "handle": "@66i200",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140790+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140792+00:00"
+    },
+    {
+      "handle": "@7akie",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141436+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141438+00:00"
+    },
+    {
+      "handle": "@7aneen_7a",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142416+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142418+00:00"
+    },
+    {
+      "handle": "@7bbtoke_",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141783+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141785+00:00"
+    },
+    {
+      "handle": "@7hkmaa",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140485+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140488+00:00"
+    },
+    {
+      "handle": "@7k511_",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142264+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142267+00:00"
+    },
+    {
+      "handle": "@7komade7k",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140921+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140924+00:00"
+    },
+    {
+      "handle": "@8iff6",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140137+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140141+00:00"
+    },
+    {
+      "handle": "@8jijr",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141842+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141845+00:00"
+    },
+    {
+      "handle": "@9ali_",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141990+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141991+00:00"
+    },
+    {
+      "handle": "@9hhh___",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140019+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140023+00:00"
+    },
+    {
+      "handle": "@9l006",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141321+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141322+00:00"
+    },
+    {
+      "handle": "@_0heart",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141582+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141585+00:00"
+    },
+    {
+      "handle": "@_14a0",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141166+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141167+00:00"
+    },
+    {
+      "handle": "@_3bsol",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140851+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140854+00:00"
+    },
+    {
+      "handle": "@_3zli",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140448+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140451+00:00"
+    },
+    {
+      "handle": "@___gll",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141756+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141758+00:00"
+    },
+    {
+      "handle": "@__bip_",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140333+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140336+00:00"
+    },
+    {
+      "handle": "@_interes1",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.139932+00:00",
+      "lastSeen": "2026-05-08T06:01:24.139955+00:00"
+    },
+    {
+      "handle": "@_tedium",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141958+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141960+00:00"
+    },
+    {
+      "handle": "@_tedium0",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140559+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140562+00:00"
+    },
+    {
+      "handle": "@_tllli",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141125+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141127+00:00"
+    },
+    {
+      "handle": "@a009654",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141228+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141230+00:00"
+    },
+    {
+      "handle": "@a2t___",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142287+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142289+00:00"
+    },
+    {
+      "handle": "@aarreej1100",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142409+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142410+00:00"
+    },
+    {
+      "handle": "@abd_alqasem",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141289+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141291+00:00"
+    },
+    {
+      "handle": "@abotalal_1800",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142256+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142258+00:00"
+    },
+    {
+      "handle": "@adbiyatt",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141079+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141081+00:00"
+    },
+    {
+      "handle": "@adeb_3",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140308+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140311+00:00"
+    },
+    {
+      "handle": "@ahmad_1947",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141181+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141183+00:00"
+    },
+    {
+      "handle": "@ahmadbinmariq",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141109+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141111+00:00"
+    },
+    {
+      "handle": "@ahmed131996a",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142193+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142195+00:00"
+    },
+    {
+      "handle": "@ahmed_amin25",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140630+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140633+00:00"
+    },
+    {
+      "handle": "@ajj__jj",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140459+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140462+00:00"
+    },
+    {
+      "handle": "@alamyrahiam",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141305+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141307+00:00"
+    },
+    {
+      "handle": "@alanazi9089",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142215+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142217+00:00"
+    },
+    {
+      "handle": "@alb7ear",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141913+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141915+00:00"
+    },
+    {
+      "handle": "@albina_eu",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141132+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141134+00:00"
+    },
+    {
+      "handle": "@alemalm3rfa",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141895+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141898+00:00"
+    },
+    {
+      "handle": "@alvideo2",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140353+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140357+00:00"
+    },
+    {
+      "handle": "@amrhassan_0",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141405+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141407+00:00"
+    },
+    {
+      "handle": "@ana_positive1",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142222+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142224+00:00"
+    },
+    {
+      "handle": "@aqwall1_",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140497+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140499+00:00"
+    },
+    {
+      "handle": "@arab_gym",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141463+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141467+00:00"
+    },
+    {
+      "handle": "@arabtreda",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142175+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142178+00:00"
+    },
+    {
+      "handle": "@arbma8",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141420+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141422+00:00"
+    },
+    {
+      "handle": "@areejahmed366",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141794+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141796+00:00"
+    },
+    {
+      "handle": "@avada_1",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142029+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142031+00:00"
+    },
+    {
+      "handle": "@awraaq",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140250+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140253+00:00"
+    },
+    {
+      "handle": "@aymanaldktwrh",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142334+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142336+00:00"
+    },
+    {
+      "handle": "@azahrani_1",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142013+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142015+00:00"
+    },
+    {
+      "handle": "@bantabooha_2030",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141748+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141750+00:00"
+    },
+    {
+      "handle": "@bbpp3m",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141382+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141385+00:00"
+    },
+    {
+      "handle": "@bhsa_",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140897+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140901+00:00"
+    },
+    {
+      "handle": "@biib_74",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141212+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141214+00:00"
+    },
+    {
+      "handle": "@black_2032",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140201+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140204+00:00"
+    },
+    {
+      "handle": "@c800_",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142362+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142364+00:00"
+    },
+    {
+      "handle": "@c807430c4e35459",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140471+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140474+00:00"
+    },
+    {
+      "handle": "@catchy_9",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141197+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141199+00:00"
+    },
+    {
+      "handle": "@ciew__",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141251+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141253+00:00"
+    },
+    {
+      "handle": "@curriculumvita0",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142377+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142379+00:00"
+    },
+    {
+      "handle": "@d13iy",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141044+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141047+00:00"
+    },
+    {
+      "handle": "@d1il9",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140606+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140609+00:00"
+    },
+    {
+      "handle": "@dash_cam_store",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142167+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142169+00:00"
+    },
+    {
+      "handle": "@diiabmusic",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140665+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140668+00:00"
+    },
+    {
+      "handle": "@doodo_a22",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140084+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140087+00:00"
+    },
+    {
+      "handle": "@ebd3media",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140546+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140549+00:00"
+    },
+    {
+      "handle": "@ei2en",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141448+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141450+00:00"
+    },
+    {
+      "handle": "@eltnheeda",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140812+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140815+00:00"
+    },
+    {
+      "handle": "@emadelembaby1",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142005+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142047+00:00"
+    },
+    {
+      "handle": "@emomuhammadi",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141010+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141013+00:00"
+    },
+    {
+      "handle": "@eshq_19",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141607+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141609+00:00"
+    },
+    {
+      "handle": "@eso_115",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141268+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141270+00:00"
+    },
+    {
+      "handle": "@facts444",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141886+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141888+00:00"
+    },
+    {
+      "handle": "@faisalmudhish",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141375+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141377+00:00"
+    },
+    {
+      "handle": "@fn_dkr",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140238+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140241+00:00"
+    },
+    {
+      "handle": "@fyl_0",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140403+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140405+00:00"
+    },
+    {
+      "handle": "@geyer__",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141704+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141707+00:00"
+    },
+    {
+      "handle": "@gfy90",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141094+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141096+00:00"
+    },
+    {
+      "handle": "@gll2m",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140437+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140440+00:00"
+    },
+    {
+      "handle": "@gnral_twt",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140380+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140383+00:00"
+    },
+    {
+      "handle": "@great_phr",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141616+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141620+00:00"
+    },
+    {
+      "handle": "@gretest_",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142126+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142129+00:00"
+    },
+    {
+      "handle": "@hadoshi0",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141055+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141058+00:00"
+    },
+    {
+      "handle": "@hanan_shok",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141313+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141314+00:00"
+    },
+    {
+      "handle": "@haukma",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142069+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142072+00:00"
+    },
+    {
+      "handle": "@heart133_",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141739+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141742+00:00"
+    },
+    {
+      "handle": "@heartt_6",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141645+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141648+00:00"
+    },
+    {
+      "handle": "@hh120aah",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141259+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141261+00:00"
+    },
+    {
+      "handle": "@hh240hh",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140801+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140803+00:00"
+    },
+    {
+      "handle": "@hhyf0",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141297+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141299+00:00"
+    },
+    {
+      "handle": "@hussain786_fkh",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142078+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142079+00:00"
+    },
+    {
+      "handle": "@i1rules",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141428+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141430+00:00"
+    },
+    {
+      "handle": "@ibrahemalfaraj",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142085+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142087+00:00"
+    },
+    {
+      "handle": "@id__i1",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141087+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141089+00:00"
+    },
+    {
+      "handle": "@ieii77",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141565+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141567+00:00"
+    },
+    {
+      "handle": "@ii19i96",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141941+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141945+00:00"
+    },
+    {
+      "handle": "@ii_1ec",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140391+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140394+00:00"
+    },
+    {
+      "handle": "@iiillue",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141713+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141716+00:00"
+    },
+    {
+      "handle": "@iipuulse_",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141189+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141191+00:00"
+    },
+    {
+      "handle": "@ine12s",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140176+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140179+00:00"
+    },
+    {
+      "handle": "@iqutesii",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141662+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141664+00:00"
+    },
+    {
+      "handle": "@joj_208888",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142208+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142209+00:00"
+    },
+    {
+      "handle": "@k41_ed",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141925+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141927+00:00"
+    },
+    {
+      "handle": "@k_therebel",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142139+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142141+00:00"
+    },
+    {
+      "handle": "@kafomedia",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142369+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142371+00:00"
+    },
+    {
+      "handle": "@katib52",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141501+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141503+00:00"
+    },
+    {
+      "handle": "@kdd1414",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141933+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141935+00:00"
+    },
+    {
+      "handle": "@khawaterertugru",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140862+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140865+00:00"
+    },
+    {
+      "handle": "@kitabaa1",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140037+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140041+00:00"
+    },
+    {
+      "handle": "@kitchenarb",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141472+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141475+00:00"
+    },
+    {
+      "handle": "@kkkz90",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141391+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141393+00:00"
+    },
+    {
+      "handle": "@kkm77230",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141282+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141284+00:00"
+    },
+    {
+      "handle": "@klm_a4",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142280+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142281+00:00"
+    },
+    {
+      "handle": "@kounoouz",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140582+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140585+00:00"
+    },
+    {
+      "handle": "@kwtqq8",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141637+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141639+00:00"
+    },
+    {
+      "handle": "@l8l4l8l",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141359+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141361+00:00"
+    },
+    {
+      "handle": "@ladyynr",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140151+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140154+00:00"
+    },
+    {
+      "handle": "@laytah",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141966+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141968+00:00"
+    },
+    {
+      "handle": "@laytaho",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141150+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141152+00:00"
+    },
+    {
+      "handle": "@lfky",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141723+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141724+00:00"
+    },
+    {
+      "handle": "@li_llw",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141599+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141601+00:00"
+    },
+    {
+      "handle": "@life_0z",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140226+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140229+00:00"
+    },
+    {
+      "handle": "@llilfe",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141032+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141035+00:00"
+    },
+    {
+      "handle": "@lmessagesi",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140768+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140770+00:00"
+    },
+    {
+      "handle": "@lovei3i",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141975+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141976+00:00"
+    },
+    {
+      "handle": "@m___alotaibi511",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140839+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140842+00:00"
+    },
+    {
+      "handle": "@m__kfo",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140987+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140990+00:00"
+    },
+    {
+      "handle": "@m_al3wlqi",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142101+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142104+00:00"
+    },
+    {
+      "handle": "@m_alsha3rawy",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140823+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140826+00:00"
+    },
+    {
+      "handle": "@me_e1i",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141540+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141543+00:00"
+    },
+    {
+      "handle": "@mg__noor",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140521+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140524+00:00"
+    },
+    {
+      "handle": "@mh204_",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141653+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141656+00:00"
+    },
+    {
+      "handle": "@mhdzahrani",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140261+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140264+00:00"
+    },
+    {
+      "handle": "@mime_my",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142342+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142344+00:00"
+    },
+    {
+      "handle": "@minddevelop_",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140297+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140300+00:00"
+    },
+    {
+      "handle": "@mjrdzayr337191",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141764+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141767+00:00"
+    },
+    {
+      "handle": "@ml_ml1990",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142037+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142039+00:00"
+    },
+    {
+      "handle": "@mmo7mod",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142147+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142149+00:00"
+    },
+    {
+      "handle": "@mohamed123ab8",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142021+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142023+00:00"
+    },
+    {
+      "handle": "@mohamed41341333",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141532+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141535+00:00"
+    },
+    {
+      "handle": "@most3fa35",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140945+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140947+00:00"
+    },
+    {
+      "handle": "@motm2na_",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142118+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142121+00:00"
+    },
+    {
+      "handle": "@mr_7l",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141869+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141871+00:00"
+    },
+    {
+      "handle": "@mrtq4",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141509+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141524+00:00"
+    },
+    {
+      "handle": "@myr554",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141398+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141400+00:00"
+    },
+    {
+      "handle": "@n_ayil",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141833+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141836+00:00"
+    },
+    {
+      "handle": "@naglaa7576",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142302+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142305+00:00"
+    },
+    {
+      "handle": "@najah_94",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140509+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140512+00:00"
+    },
+    {
+      "handle": "@najib_1911",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141413+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141415+00:00"
+    },
+    {
+      "handle": "@nawwal236606",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142311+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142313+00:00"
+    },
+    {
+      "handle": "@nhcjv_",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140273+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140276+00:00"
+    },
+    {
+      "handle": "@noffbr",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140956+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140958+00:00"
+    },
+    {
+      "handle": "@nooncooode",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140909+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140912+00:00"
+    },
+    {
+      "handle": "@nurahu345",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141997+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141999+00:00"
+    },
+    {
+      "handle": "@o1li9",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140285+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140288+00:00"
+    },
+    {
+      "handle": "@oiiii0o",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141117+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141119+00:00"
+    },
+    {
+      "handle": "@okii66",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141101+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141104+00:00"
+    },
+    {
+      "handle": "@ooom",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141877+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141880+00:00"
+    },
+    {
+      "handle": "@oovverfeeling",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140213+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140216+00:00"
+    },
+    {
+      "handle": "@osamasari77",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141336+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141338+00:00"
+    },
+    {
+      "handle": "@payne_beautiful",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142425+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142426+00:00"
+    },
+    {
+      "handle": "@pur2e",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141220+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141222+00:00"
+    },
+    {
+      "handle": "@pyschg",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141905+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141907+00:00"
+    },
+    {
+      "handle": "@quran__video",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142201+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142202+00:00"
+    },
+    {
+      "handle": "@r00h_a",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142432+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142434+00:00"
+    },
+    {
+      "handle": "@rassayll",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140052+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140059+00:00"
+    },
+    {
+      "handle": "@rayd2312311",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141730+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141733+00:00"
+    },
+    {
+      "handle": "@reem_aziz32",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141950+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141952+00:00"
+    },
+    {
+      "handle": "@riesalaa",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140414+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140417+00:00"
+    },
+    {
+      "handle": "@risslh",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142061+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142063+00:00"
+    },
+    {
+      "handle": "@roz_hocker",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141802+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141805+00:00"
+    },
+    {
+      "handle": "@rsal94",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141686+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141689+00:00"
+    },
+    {
+      "handle": "@rw7iu",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141235+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141237+00:00"
+    },
+    {
+      "handle": "@salah2934",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140641+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140644+00:00"
+    },
+    {
+      "handle": "@science__25",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140999+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141002+00:00"
+    },
+    {
+      "handle": "@scy6q",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141205+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141207+00:00"
+    },
+    {
+      "handle": "@si6r1",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141678+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141681+00:00"
+    },
+    {
+      "handle": "@so_so_bkr",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142294+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142296+00:00"
+    },
+    {
+      "handle": "@sol12215",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141824+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141826+00:00"
+    },
+    {
+      "handle": "@stories220",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140734+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140737+00:00"
+    },
+    {
+      "handle": "@storwd",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141492+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141495+00:00"
+    },
+    {
+      "handle": "@tafasil",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142318+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142320+00:00"
+    },
+    {
+      "handle": "@tarf__78",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140189+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140192+00:00"
+    },
+    {
+      "handle": "@tg_adb",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141456+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141458+00:00"
+    },
+    {
+      "handle": "@thiqa__2030",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141851+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141854+00:00"
+    },
+    {
+      "handle": "@tib1_",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140426+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140428+00:00"
+    },
+    {
+      "handle": "@tkr62k",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142325+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142328+00:00"
+    },
+    {
+      "handle": "@tmp6k",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142183+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142187+00:00"
+    },
+    {
+      "handle": "@tnsyqn",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142155+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142157+00:00"
+    },
+    {
+      "handle": "@todaymessagee",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142052+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142055+00:00"
+    },
+    {
+      "handle": "@ttbeq",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141670+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141672+00:00"
+    },
+    {
+      "handle": "@tumblrx7",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141557+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141559+00:00"
+    },
+    {
+      "handle": "@urfavbeauty1",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141860+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141863+00:00"
+    },
+    {
+      "handle": "@v_8lo",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142439+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142442+00:00"
+    },
+    {
+      "handle": "@vidu_ff",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141066+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141069+00:00"
+    },
+    {
+      "handle": "@vip__m13",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140886+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140889+00:00"
+    },
+    {
+      "handle": "@w000_3",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142248+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142250+00:00"
+    },
+    {
+      "handle": "@warrq_",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.142110+00:00",
+      "lastSeen": "2026-05-08T06:01:24.142112+00:00"
+    },
+    {
+      "handle": "@worldoftheanim1",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140967+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140970+00:00"
+    },
+    {
+      "handle": "@wriitings",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140933+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140936+00:00"
+    },
+    {
+      "handle": "@xx__zb",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140163+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140166+00:00"
+    },
+    {
+      "handle": "@y1li9",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140653+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140656+00:00"
+    },
+    {
+      "handle": "@y_771_",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140779+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140781+00:00"
+    },
+    {
+      "handle": "@yy736yy",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141811+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141813+00:00"
+    },
+    {
+      "handle": "@zajelss",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141351+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141353+00:00"
+    },
+    {
+      "handle": "@zekrrr_",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141344+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141346+00:00"
+    },
+    {
+      "handle": "@zli__",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.140571+00:00",
+      "lastSeen": "2026-05-08T06:01:24.140573+00:00"
+    },
+    {
+      "handle": "@zrqlymm_1",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141243+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141245+00:00"
+    },
+    {
+      "handle": "@zz__qe",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141366+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141369+00:00"
+    },
+    {
+      "handle": "@zz__sz",
+      "displayName": "",
+      "reasons": [],
+      "sources": [
+        "xblocker"
+      ],
+      "firstSeen": "2026-05-08T06:01:24.141774+00:00",
+      "lastSeen": "2026-05-08T06:01:24.141776+00:00"
+    }
+  ]
+}
